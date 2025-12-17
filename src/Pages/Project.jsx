@@ -16,15 +16,15 @@ const projects = [
     id: 2,
     title: 'Website Portofolio',
     image: proyek2,
-    description: '.',
-    detail: 'Projek ini dibuat ketika saya melakukan tugas praktikum teknologi web. Projek ini digunakna untuk mempermudah dalam membaca portofolio saya dengan tampilan yang menarik. Nantinya proyek ini ingin saya kembangkan dan kelola serta update informasi'
+    description: 'Website portofolio ini dibuat untuk menmpilkan informasi tentang diri yang berisi profil, hobi, dan proyek secara terstruktur, dengan tampilan yang menarik.',
+    detail: 'Projek ini dibuat ketika saya melakukan tugas praktikum teknologi web materi css modern.  Tujuan dari pembuatan website portofolio ini adalah sebagai sarana pembelajaran penerapan halaman web responsive dengan CSS modern.'
   },
   {
     id: 3,
     title: 'Training Of Motivation 2026',
     image: proyek3,
-    description: 'Sedang dipersiapkan, kegiatan yang ditujukan untuk anak SMA di sekolah asal untuk mengenalkan Para Alumni yang berada di Perguruan Tinggi, sharing sassion dan expo campus .',
-    detail: 'Acara ini rutin diadakan satu tahun sekali yang diselenggarakan oleh para alumni SMAN 1 Kramat 2025. Acara TOM meliputi kegiatan try out gratis bagi siswa-siswa kelas 12, sharing session, parede kampus dan juga expo campus.'
+    description: 'Sedang dipersiapkan, kegiatan yang ditujukan untuk anak SMA di sekolah asal untuk mengenalkan Para Alumni yang berada di Perguruan Tinggi maupun kedinasan.',
+    detail: 'Acara ini rutin diadakan satu tahun sekali yang diselenggarakan oleh para alumni SMAN 1 Kramat 2025. Acara TOM meliputi kegiatan try out gratis bagi siswa-siswa kelas 12, sharing session, parede kampus dan juga expo campus yang menghadirkan para alumni dengan mewakili tiap universitasnya.'
   }
 
 ];
@@ -48,7 +48,7 @@ export default function Projects() {
 
         {selectedProject && (
           <div className="fixed inset-0 bg-gray-500 bg-opacity-50 flex items-center justify-center p-6">
-            <div className="bg-white p-6 rounded-xl max-w-lg w-full relative">
+            <div className="bg-white p-6 rounded-2xl max-w-lg w-full relative">
               <button
                 className="absolute top-2 right-2 text-gray-700 font-bold text-xl"
                 onClick={() => setSelectedProject(null)}
