@@ -7,7 +7,7 @@ function Home() {
 
 
   return (
-      <section className="bg-pink-200 py-16 px-6 pt-28 min-h-screen w-full">
+      <section className="bg-pink-300 py-16 px-6 pt-28 min-h-screen w-full">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-10">
           <img src={fotoprofil}
           alt="foto-profil" className="w-48 h-48 md:w-64 md:h-64 rounded-full
@@ -15,12 +15,14 @@ function Home() {
 
 
           <div className="max-w-2xl">
-            <h2 className="text-3xl font-semibold mb-4">Halo, Saya Akmaliyah Hidayatul Jannah</h2>
+            <h2 className="text-3xl font-semibold mb-4 text-gray-800">Haloo, Saya Akmaliyah Hidayatul Jannah</h2>
             <p className="text-gray-600 leading-relaxed">
-              Saya adalah seorang mahasiswa Sistem Informasi semester 3 di Universitas Ahmad dahlan. Dengan pengalaman dalam organisasi dan
+              Saya adalah seorang mahasiswa Sistem Informasi semester 3 di Universitas Ahmad dahlan. Dengan memiliki pengalaman dalam organisasi dan
               kepanitian yang memberikan saya banyak pengalaman khususnya dalam bertanggung jawab, komunikasi dan kerjasama tim. Ketertarikan
-              saya pada bidang teknologi, masyarakat, musik dan mencoba hal-hal baru.
+              saya pada bidang teknologi, masyarakat, musik dan mencoba hal-hal baru. Saat ini, saya sedang mendalami sistem basis data, teknologi web,
+              dan berbagai materi pendukung lainnya dalam perkuliahan.
             </p>
+            
           </div>
         </div>
       </section>

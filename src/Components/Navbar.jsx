@@ -10,7 +10,7 @@ function Navbar() {
 
   return (
     <header className="fixed top-0 left-0 w-full bg-white border-b shadow z-50">
-      <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <div className="max-w-6xl mx-auto px-6 py-4 flex text-l justify-between items-center">
         <h1 className="text-2xl font-bold text-blue-600">
           My Portofolio
         </h1>
