@@ -6,11 +6,11 @@ export default function Contact() {
 
       <main className="flex-grow py-20 px-6 w-full">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-2xl font-bold text-center mb-15">
+          <h2 className="text-2xl font-bold text-center mb-14">
             Hubungi Saya
           </h2>
 
-          <div className="grid md:grid-cols-3 gap-10 text-center">
+          <div className="grid md:grid-cols-3 gap-10 text-center mb-14">
              <div className="flex flex-col items-center">
             <div className="bg-blue-100 text-blue-600 p-4 rounded-full mb-3">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -54,9 +54,41 @@ export default function Contact() {
             <h3 className="font-semibold mb-1">Lokasi</h3>
             <p className="text-gray-200">Wirosaban, Yogyakarta, Indonesia</p>
           </div>
-
-          </div>
         </div>
+
+        <div className="max-w-xl mx-auto bg-blue-100  p-6 rounded-lg shadow">
+          <h3 className="text-xl font-bold text-center mb-6">
+            Kirim Pesan
+          </h3>
+
+          <form className="space-y-4">
+            <input
+              type="text"
+              placeholder="Nama"
+              className="w-full p-2 border rounded"
+            />
+
+            <input
+              type="email"
+              placeholder="Email"
+              className="w-full p-2 border rounded"
+            />
+
+            <textarea
+              placeholder="Pesan"
+              rows="4"
+              className="w-full p-2 border rounded"
+            ></textarea>
+
+            <button
+              type="submit"
+              className="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700"
+            >
+              Kirim
+            </button>
+          </form>
+        </div>
+       </div>
       </main>
 
       <Footer />
